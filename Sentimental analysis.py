@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 29 10:54:50 2021
-
-@author: Lenovo
-"""
-
 from datetime import datetime
 from twitter import Twitter, OAuth
 import numpy as np
