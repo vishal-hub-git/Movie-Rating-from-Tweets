@@ -166,7 +166,6 @@ your
 yours
 yourself
 yourselves
-USER_MENTION
 st
 nd
 rd
