@@ -15,7 +15,7 @@ def get_movie_details():
     return movie_name,release_date
 
 consumer_key='Your consumer key'
-consumer_secret= 'Your consumer secret'
+consumer_secret= 'Your secret consumer key'
 access_token='Your access token'
 access_token_secret= 'Your secret access token'
 
