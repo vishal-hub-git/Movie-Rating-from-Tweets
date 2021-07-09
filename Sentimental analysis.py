@@ -14,10 +14,10 @@ def get_movie_details():
     release_date=input("Enter Release date: ")      
     return movie_name,release_date
 
-consumer_key='rgAdZuRp9BHo0vxAXXwvkI14e'
-consumer_secret= 'eVpNXp29e0aUE1ds04nKF5HSc5OFCbWBp8tNwCHtCm6j6hD5jR'
-access_token='2184272348-jghUBHb5wfJc4tXdlliJ44XUfPbBzQ1hRJlqE6r'
-access_token_secret= 'o0QJcmKIDHyvw6EDB5XMiE2f66FfLlLJm2AzdZUMm0Xky'
+consumer_key='Your consumer key'
+consumer_secret= 'Your consumer secret'
+access_token='Your access token'
+access_token_secret= 'Your secret access token'
 
 oauth = OAuth(access_token,access_token_secret,consumer_key,consumer_secret)    # Authenticating this python application with Twitter using API access keys and tokens
 twitter = Twitter(auth=oauth)       # Creating a twitter API class by using the authentication done
